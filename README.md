@@ -1,7 +1,7 @@
-Endangered African Elephant Population & Conservation: Visualizing Protection Impact
-Essential Question
-"How has the endangered population of African Elephants changed in protected vs. non-protected areas over the past roughly 30 years, and what does this reveal about conservation effectiveness on a greater scale?"
-Data Sources
+Endangered African Elephant Population & Conservation: Visualizing Protection Impact\
+Essential Question\
+"How has the endangered population of African Elephants changed in protected vs. non-protected areas over the past roughly 30 years, and what does this reveal about conservation effectiveness on a greater scale?"\
+Data Sources\
 
 African Elephant Database
 
