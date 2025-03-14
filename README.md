@@ -17,7 +17,7 @@ Usage: Backup cross-referenced data for 2016 populations.
 
 Visualization Approaches
 
-    Interactive Population Tracker
+Interactive Population Tracker
 
 Tech Stack: React + Recharts
 Features:
@@ -26,7 +26,7 @@ Species selection dropdown
 Protected vs. unprotected comparison
 Timeline analysis (1995-2016)
 
-    Conservation Impact Dashboard
+Conservation Impact Dashboard
 
 Tech Stack: React + Shadcn UI
 Features:
@@ -35,15 +35,15 @@ Population metrics cards
 Protection effectiveness indicators
 Geographic distribution maps
 
-Project Structure
-endangered-species-vis/
-├── data/
-│ ├── raw/ # Original datasets
-│ └── processed/ # Cleaned data
-├── src/
-│ ├── components/ # React components
-│ ├── utils/ # Data processing
-│ └── App.js # Main dashboard
-├── public/
-│ └── assets/
-└── package.json
+Project Structure\
+endangered-species-vis/\
+├── data/\
+│ ├── raw/ # Original datasets\
+│ └── processed/ # Cleaned data\
+├── src/\
+│ ├── components/ # React components\
+│ ├── utils/ # Data processing\
+│ └── App.js # Main dashboard\
+├── public/\
+│ └── assets/\
+└── package.json\
