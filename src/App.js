@@ -157,7 +157,7 @@ function App() {
       </main>
       
       <footer className="App-footer">
-        <p>Data sources: IUCN Red List, African Elephant Database</p>
+        <p>Data sources: IUCN Red List, African Elephant Database, Great Elephant Census</p>
         <p>Created for IS219 by Ian Espinal 2025</p>
       </footer>
     </div>

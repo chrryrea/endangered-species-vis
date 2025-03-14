@@ -5,13 +5,19 @@ Data Sources
 
 African Elephant Database
 
-Source: AfricanElephantDatabase
+Source: AfricanElephantDatabase.org
 Description: Global species population trends (1995-2016).
 Usage: Core population tracking baseline.
 
+IUCN Red List
+
+Source: IUCNRedList.org
+Description: Inventory of the global conservation status and extinction risk of biological species.
+Usage: Supplemantary background context 
+
 Great Elephant Census
 
-Source: ElephantsWithoutBorders
+Source: ElephantsWithoutBorders.org
 Description: Massively funded census conducted in 2016
 Usage: Backup cross-referenced data for 2016 populations.
 
