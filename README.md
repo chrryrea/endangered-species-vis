@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+Endangered African Elephant Population & Conservation: Visualizing Protection Impact
+Essential Question
+"How has the endangered population of African Elephants changed in protected vs. non-protected areas over the past roughly 30 years, and what does this reveal about conservation effectiveness on a greater scale?"
+Data Sources
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+African Elephant Database
 
-## Available Scripts
+Source: AfricanElephantDatabase
+Description: Global species population trends (1995-2016).
+Usage: Core population tracking baseline.
 
-In the project directory, you can run:
+Great Elephant Census
 
-### `npm start`
+Source: ElephantsWithoutBorders
+Description: Massively funded census conducted in 2016
+Usage: Backup cross-referenced data for 2016 populations.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Visualization Approaches
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Interactive Population Tracker
 
-### `npm test`
+Tech Stack: React + Recharts
+Features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Species selection dropdown
+Protected vs. unprotected comparison
+Timeline analysis (1995-2016)
 
-### `npm run build`
+    Conservation Impact Dashboard
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Tech Stack: React + Shadcn UI
+Features:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Population metrics cards
+Protection effectiveness indicators
+Geographic distribution maps
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Structure
+endangered-species-vis/
+├── data/
+│ ├── raw/ # Original datasets
+│ └── processed/ # Cleaned data
+├── src/
+│ ├── components/ # React components
+│ ├── utils/ # Data processing
+│ └── App.js # Main dashboard
+├── public/
+│ └── assets/
+└── package.json
